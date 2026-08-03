@@ -1,0 +1,136 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day",
+        "Is anyone there?",
+        "Greetings",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! Welcome to Smart Retail Customer Support. How can I assist you today?",
+        "Hi there! How can I help with your shopping experience today?",
+        "Welcome! Feel free to ask me any questions about products, orders, returns, or store policies."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Have a good day",
+        "Farewell",
+        "Thanks bye"
+      ],
+      "responses": [
+        "Thank you for shopping with us! Have a wonderful day!",
+        "Goodbye! Please visit us again soon.",
+        "Have a great day! Reach out whenever you need help."
+      ]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When is the store open?",
+        "What time do you open?",
+        "What time do you close?",
+        "Are you open on weekends?",
+        "Sunday store timings"
+      ],
+      "responses": [
+        "Our retail stores are open Monday through Saturday from 8:00 AM to 10:00 PM, and Sunday from 9:00 AM to 8:00 PM.",
+        "We are open daily! Mon-Sat: 8 AM - 10 PM, Sun: 9 AM - 8 PM."
+      ]
+    },
+    {
+      "tag": "store_location",
+      "patterns": [
+        "Where are your stores located?",
+        "Store address",
+        "How do I find your physical store?",
+        "Nearest branch location",
+        "Where is your shop?"
+      ],
+      "responses": [
+        "You can find our flagship retail locations in major downtown shopping districts. Visit our website store locator for exact addresses and interactive directions.",
+        "Our main store is located at 100 Retail Boulevard, City Center. We also have branches in North Plaza and West Mall."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "How do I return a product?",
+        "Can I exchange an item?",
+        "How many days do I have to return an item?",
+        "Refund conditions"
+      ],
+      "responses": [
+        "We offer a 30-day hassle-free return policy for all unworn or defective items with valid receipt. Refunds are issued to your original payment method.",
+        "You can return any purchased item within 30 days of purchase with receipt for a full refund or exchange."
+      ]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "How can I track my order?",
+        "Where is my package?",
+        "Track delivery status",
+        "Order shipment status",
+        "When will my order arrive?"
+      ],
+      "responses": [
+        "You can track your order status by logging into your account dashboard or entering your Tracking ID on our delivery portal.",
+        "Please provide your Order ID or check your email for the shipment tracking link sent upon dispatch."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment options do you accept?",
+        "Can I pay with credit card?",
+        "Do you accept Apple Pay or Google Pay?",
+        "Is cash on delivery available?",
+        "Payment methods"
+      ],
+      "responses": [
+        "We accept Visa, MasterCard, American Express, PayPal, Apple Pay, Google Pay, and Cash on Delivery at select locations.",
+        "We accept all major credit/debit cards, contactless mobile payments, digital wallets, and store gift cards."
+      ]
+    },
+    {
+      "tag": "discounts_promotions",
+      "patterns": [
+        "Are there any active sales or discounts?",
+        "Do you have promo codes?",
+        "Student discount",
+        "Loyalty rewards program",
+        "Special offers today"
+      ],
+      "responses": [
+        "Yes! Join our Smart Retail Loyalty Club for 15% off your first order, plus earn rewards points on every purchase.",
+        "Check our Promotions banner online or ask any store representative about today's seasonal sales!"
+      ]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "How do I talk to a human agent?",
+        "Customer service contact number",
+        "Support email",
+        "Help desk phone number"
+      ],
+      "responses": [
+        "You can reach our human support team 24/7 at support@smartretail.com or call toll-free at 1-800-SMART-RETAIL.",
+        "Our customer representative team is available via telephone at 1-800-555-0199 or via live agent chat on our main site."
+      ]
+    }
+  ]
+}
