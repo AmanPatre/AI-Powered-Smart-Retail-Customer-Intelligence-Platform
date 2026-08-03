@@ -152,4 +152,4 @@ Send the API Key in your request headers:
 X-API-Key: smart_retail_secret_key_2026
 ```
 
-##Swastika Dey##
+##ADITYA PANDEY##
